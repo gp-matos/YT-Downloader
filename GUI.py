@@ -108,7 +108,7 @@ class YoutubeDownloaderGUI(QWidget):
                 QMessageBox.information(self, "Success", f"Download successful!\nFile saved at:\n{result}")
         except Exception as e:
             QMessageBox.critical(self, "Error", f"An error occurred:\n{str(e)}")
-
+            
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = YoutubeDownloaderGUI()

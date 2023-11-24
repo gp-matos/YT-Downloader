@@ -84,6 +84,5 @@ if __name__ == "__main__":
     format = input("Enter the format (mp4, mp3, wav): ")
     #download the stream
     download_stream(url, path, name, format)
-        
 
         
